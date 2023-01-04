@@ -18,11 +18,6 @@ public class HomeController : Controller
         return View("Index");
     }
 
-    public IActionResult Privacy()
-    {
-        return View("Privacy");
-    }
-
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
